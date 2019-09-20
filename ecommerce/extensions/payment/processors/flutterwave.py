@@ -7,6 +7,7 @@ import json
 import logging
 import uuid
 from decimal import Decimal
+from urlparse import urljoin
 
 from django.conf import settings
 from django.urls import reverse
